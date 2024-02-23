@@ -10,7 +10,7 @@ api_url = "https://www.thebluealliance.com/api/v3/event/2019ncpem/rankings"
 # api_url = "https://www.thebluealliance.com/api/v3/event/2024ncwak/rankings"
 
 # Put your TBA auth key in the last set of quotes
-headers = {'User-Agent': 'Team 5607 Event Data CSV Generator', 'X-TBA-Auth-Key': 'iu9k1Zf1Trq56GHqConIPbpCvzvVlRfzTkfTpi1UAWwuTDtWqbRPkH21kiiK8Hex'}
+headers = {'User-Agent': 'Team 5607 Event Data CSV Generator', 'X-TBA-Auth-Key': ''}
 response = requests.get(api_url, headers=headers)
 
 # Dumps all of the JSON contents of the GET
